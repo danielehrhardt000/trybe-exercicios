@@ -1,2 +1,2 @@
 # trybe-exercicios
-Criando um repositório de teste para a Trybe
+Criando um repositório para salvar os exercicios da Trybe
