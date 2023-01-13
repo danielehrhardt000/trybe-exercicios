@@ -1,2 +1,2 @@
-# Teste_Github
+# trybe-exercicios
 Criando um repositório de teste para a Trybe
