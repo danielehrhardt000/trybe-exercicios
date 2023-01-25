@@ -50,3 +50,8 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 // Parte 8
+let array = 0
+for (let index = 1; index <= 25; index+=1) {
+    array[1] + array[25]
+    console.log(array[index]);
+}
