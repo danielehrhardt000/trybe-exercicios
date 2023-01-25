@@ -57,12 +57,12 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(array);
 
 // Parte 9
-let array = []
-let divi = []
-for (let index = 1; index <= 100; index+=1) {
-    array.push(index)
-}
-for (let indexdivi = 0; indexdivi < array.length; indexdivi+=1) {
-    divi.push(array[indexdivi]/2)
-}
-console.log(divi);
+// let array = []
+// let divi = []
+// for (let index = 1; index <= 100; index+=1) {
+//     array.push(index)
+// }
+// for (let indexdivi = 0; indexdivi < array.length; indexdivi+=1) {
+//     divi.push(array[indexdivi]/2)
+// }
+// console.log(divi);
