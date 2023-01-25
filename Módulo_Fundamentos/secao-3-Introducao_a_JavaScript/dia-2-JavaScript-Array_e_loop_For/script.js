@@ -51,7 +51,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // Parte 8
 let array = 0
-for (let index = 1; index <= 25; index+=1) {
-    array[1] + array[25]
-    console.log(array[index]);
+let sum = 0
+for (let index = 1; index <= 100; index+=1) {
+        console.log(array[index]);
+        for (let index = 0; index < array.length; index+=1) {
+            sum += array[index]
+            console.log(sum);
+        }
 }
+
+// Parte 9
