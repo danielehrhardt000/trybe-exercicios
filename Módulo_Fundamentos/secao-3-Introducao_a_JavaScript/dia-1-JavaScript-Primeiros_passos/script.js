@@ -54,3 +54,25 @@
 
 // Switch/Case
 
+let peça = 'rei';
+
+switch (peça) {
+    case 'bispo':
+        console.log('qualquer casa na diagonal');
+        break;
+    case 'torre':
+        console.log('qualquer casa na vertical ou horizontal');
+        break;
+    case 'rei':
+        console.log('uma casa na vertical, horizontal ou diagonal');
+        break;
+    case 'rainha':
+        console.log('qualquer casa na vertical, horizontal ou diagonal');
+        break;
+    case 'cavalo':
+        console.log('anda em L');
+        break;
+    default:
+        console.log('Peça inválida');
+        break;
+}
