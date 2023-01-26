@@ -1,6 +1,6 @@
 // Exercícios dia 3
 
-// Parte 1 - fatorial
+// Parte - 1 - fatorial
 // let fatorial = num => {
 //     if (num > 1) {
 //         return num * fatorial(num - 1)
@@ -10,16 +10,22 @@
 
 // console.log(fatorial(10));
 
-// Parte 2 - Inverter palavra
+// Parte - 2 - Inverter palavra
 // let word = 'tryber'
-// for (let index = 0; index < word.length; index+=1) {
-//     word.push(word[index].split('').reverse().join(''));
+// let reverseWord = ''
+
+// for (let index = 0; index < word.length; index += 1) {
+//     reverseWord += word[word.length - 1 - index];
 // }
-function reverse(s) {
-    let word = 'tryber';
-    for (let index = s.length - 1, join = 0; index >= 0; index -=1) {
-        word += s[index];        
-    }
-    return word;
+// console.log(reverseWord);
+
+// Parte - 3 - Maior e menor palavra
+let palavras = ['oi, meu, chapa, tudo, bem, com, você'];
+let maior = ['']
+let menor = ['']
+
+for (let index = 0; index < palavras.length; index+=1) {
+    Matchamax(/\w+/g)
+    maior += palavras[index]
 }
-console.log(reverse(s));
+console.log(maior);
