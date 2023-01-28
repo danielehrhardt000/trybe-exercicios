@@ -20,12 +20,12 @@
 // console.log(reverseWord);
 
 // Parte - 3 - Maior e menor palavra
-let palavras = ['oi, meu, chapa, tudo, bem, com, você'];
-let maior = ['']
-let menor = ['']
+let palavras = 'oi, meu, chapa, tudo, bem, com, você';
+let maior = ''
+let menor = ''
 
 for (let index = 0; index < palavras.length; index+=1) {
-    Matchamax(/\w+/g)
+    match(/\w+/g)
     maior += palavras[index]
 }
 console.log(maior);
